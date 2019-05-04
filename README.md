@@ -4,9 +4,16 @@ EasyXMLParser is an XML parser for Unreal Engine.
 
 You can get the value by using a simple access string.
 
-![GALLERY0](https://user-images.githubusercontent.com/8191970/57173302-88a9e300-6e68-11e9-8f72-bde016cdc7fc.png)
+
+To get a text node, create an access string for the value you want to get.
+
+Access strings are created by connecting tag names with dots.
+
+If there are multiple nodes with the same tag name, you can specify an index number starting from 0 (eg [2]-> third).
 
 ![GALLERY 4](https://user-images.githubusercontent.com/8191970/57173329-f35b1e80-6e68-11e9-9cd7-a3910fb9159e.png)
+
+The access string for acquiring the attribute is specified by (at mark + attribute name).
 
 ![GALLERY5](https://user-images.githubusercontent.com/8191970/57173330-f8b86900-6e68-11e9-9e52-4974c4dd3718.png)
 
