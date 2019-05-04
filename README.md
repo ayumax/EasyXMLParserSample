@@ -1,4 +1,4 @@
-# EasyXMLParserSample
+# EasyXMLParser
 
 EasyXMLParser is an XML parser for Unreal Engine.
 
@@ -37,5 +37,9 @@ If the specified value does not exist in the XML, a default value is returned.
 There are also "ReadElement" and "ReadElements" methods that get nodes as objects rather than as values.
 
 ![GALLERY 2](https://user-images.githubusercontent.com/8191970/57173342-34533300-6e69-11e9-86af-d9bda9dafc5b.png)
+
+There are two methods to load XML: "LoadFromFile" to load an XML file and "LoadFromString" to load an XML string.
+
+There is also an asynchronous version that performs parsing in the background.
 
 ![GALLERY 3](https://user-images.githubusercontent.com/8191970/57173344-3cab6e00-6e69-11e9-805c-b55093fd139e.png)
